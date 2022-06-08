@@ -1,0 +1,9 @@
+      id     user    vhost             ip         vpn-ip device   since    dtls-cipher    status
+  126284   alice  default 2a00:1111:7777:8888::99  172.31.255.56 sslvpn0  1h:34m  (AES-256-GCM) connected
+
+Press 'q' or CTRL+C to quit
+
+default: connected user 'bob' (126750) from 2a00:1111:7777:8888::42:42 with IP 172.31.255.110
+default: disconnect user 'bob' (126750) from 2a00:1111:7777:8888::42:42 with IP 172.31.255.110 (reason: user disconnected, time:  1m:05s)
+default: connected user 'bob' (126760) from 2a00:1111:7777:8888::42:42 with IP 172.31.255.110
+default: disconnect user 'bob' (126760) from 2a00:1111:7777:8888::42:42 with IP 172.31.255.110 (reason: user disconnected, time:  1m:28s)

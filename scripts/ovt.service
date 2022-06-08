@@ -1,0 +1,11 @@
+[Unit]
+Description=VyOS Telemetry
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+ExecStart=/usr/lib/live/mount/persistence/opt/node_exporter/ovt
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+# /config/scripts/vyos-postconfig-bootup.script
+#
+
+if [[ -f /usr/lib/live/mount/persistence/opt/systemd/ovt.service ]]; then
+    ln -s /usr/lib/live/mount/persistence/opt/systemd/ovt.service /etc/systemd/system/ovt.service
+    systemctl daemon-reload
+    systemctl enable --now ovt.service
+fi
+
